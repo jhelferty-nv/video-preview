@@ -1,0 +1,26 @@
+{
+    "schema_version": 1,
+    "name": "video-preview",
+    "exports": ["src"],
+    "license_files": ["LICENSE"],
+    "workspace": {
+        "deps": "deps",
+        "build": "build"
+    },
+    "build": {
+        "host": {
+            "executables": ["video-preview"],
+            "default": "video-preview"
+        }
+    },
+    "dependencies": {
+        "ycbcr-display": {
+            "git": "https://github.com/jhelferty-nv/ycbcr-display.git",
+            "version": ">=1.0.0 <2.0.0"
+        },
+        "color-encoding": {
+            "git": "https://github.com/jhelferty-nv/color-encoding.git",
+            "version": ">=1.0.0 <2.0.0"
+        }
+    }
+}

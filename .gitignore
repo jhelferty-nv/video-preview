@@ -1,0 +1,4 @@
+.slang/
+deps/
+build/
+slang-workspace.json
