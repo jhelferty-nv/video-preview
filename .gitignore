@@ -1,0 +1,5 @@
+.slang/
+deps/
+out/
+slang-package-overlay.json
+slang-package-includes.txt
